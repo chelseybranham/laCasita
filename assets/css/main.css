@@ -2010,9 +2010,9 @@ button.alt:active,
 }
 
 #header > .container {
-  padding: 14em 0 7em 0;
-  border-bottom: solid 2px #e5e5e5;
-  box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+  padding: 14em 0 3em 0;
+  /* border-bottom: solid 2px #e5e5e5; */
+  /* box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5; */
 }
 
 #header h1 {
@@ -2391,7 +2391,7 @@ button.alt:active,
   /* Header */
 
   #header > .container {
-    padding: 12em 0 5em 0;
+    padding: 12em 0 2em 0;
   }
 
   #header h1 {
@@ -2462,7 +2462,7 @@ button.alt:active,
   /* Header */
 
   #header > .container {
-    padding: 10em 0 7em 0;
+    padding: 10em 0 2em 0;
   }
 
   /* Nav */
@@ -2739,7 +2739,7 @@ button.alt:active,
   /* Header */
 
   #header > .container {
-    padding: 6em 0 4em 0;
+    padding: 6em 0 2em 0;
   }
 
   #header h1 {
@@ -2838,7 +2838,7 @@ button.alt:active,
   padding-right: 25px;
 }
 #middlepic {
-  height: 360px;
+  height: 350px;
 }
 .box .post {
   width: 50%;
@@ -2855,7 +2855,27 @@ button.alt:active,
   display: block;
   margin: 0 auto;
 }
-@media screen and (max-width: 375px) {
+
+#contactUsButton,
+#learnMoreButton,
+#sendMessageButton {
+  background-color: #c83e33;
+  border: none;
+  font-weight: 500;
+}
+#contactUsButton {
+  margin-top: 75px;
+}
+#laCasitaLogoSecond {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 0;
+  margin: 0;
+}
+div .container .second {
+  border-bottom: none;
+}
+@media screen and (max-width: 450px) {
   img {
     width: 100%;
   }
@@ -2867,4 +2887,33 @@ button.alt:active,
   #brochure {
     width: 100%;
   }
+  #reviews {
+    flex-direction: column;
+  }
+  .pictureSection,
+  .image.featured,
+  .col-4,
+  .col-6-medium,
+  .col-12-small,
+  .row,
+  .aln-center,
+  .container,
+  #thirdPic,
+  #middlePic,
+  #firstPic,
+  #features .homepage .is-preload,
+  #page-wrapper,
+  html,
+  div,
+  .container,
+  #footer {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+  }
+}
+#ourEducators {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
