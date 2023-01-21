@@ -2832,13 +2832,13 @@ button.alt:active,
   }
 }
 #painting {
-  height: 320px;
+  min-height: 350px;
   width: 260px;
   padding: 15px;
   padding-right: 25px;
 }
 #middlepic {
-  height: 350px;
+ min-height: 350px;
 }
 .box .post {
   width: 50%;
@@ -2955,3 +2955,51 @@ align-items: center;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   border-radius: 4px;
 }
+.threesProgramContainer{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+
+}
+.threesProgramChild{
+  width: 100%;
+  border-radius: 8px;
+  padding: 60px;
+}
+#teacherTeaching{
+  width: 100%;
+}
+.preschoolProgramChild{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 8px;
+  padding: 60px;
+}
+ #boyWithButterfly, #girlOnSlide, #girlsWithSantaHats {
+  width: 33%;
+flex-wrap: wrap;
+align-items: stretch;
+min-height: 456px;
+padding: 15px;
+}
+#firstPic{
+  min-width: 350px;
+}
+.schoolAgedProgramChild{
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 8px;
+  padding: 60px;}
+
+  #studentsByVan{
+    width: 100%;
+    padding: 0 100px 100px 100px;
+  }
