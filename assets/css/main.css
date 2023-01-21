@@ -115,7 +115,7 @@ body {
 }
 
 ol,
-ul {
+ul, li {
   list-style: none;
 }
 
@@ -236,7 +236,7 @@ h3 {
   margin: 0 0 1.25em 0;
 }
 
-/* a {
+a {
   -moz-transition: color 0.25s ease-in-out,
     border-bottom-color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out,
@@ -245,8 +245,8 @@ h3 {
   transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
   color: #666;
   text-decoration: none;
-  border-bottom: solid 1px #ddd;
-} */
+  /* border-bottom: solid 1px #ddd; */
+}
 
 a strong {
   -moz-transition: color 0.25s ease-in-out,
@@ -2916,4 +2916,42 @@ div .container .second {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+#studentsByVan{
+  width: 75%;
+}
+.infantProgram {
+  display: flex;
+  flex: 1;
+justify-content: space-evenly;
+align-items: center;
+  flex-direction: row;
+
+}
+
+.infantProgramSub {
+  flex-basis: auto;
+}
+#infantSitting {
+  width: 100%;
+  border-radius: 8px;
+  padding: 60px;
+}
+.toddlerProgramContainer{
+  display: flex;
+  flex: 1;
+justify-content: space-evenly;
+align-items: center;
+  flex-direction: row;
+
+}
+.toddlerProgramChild {
+  width: 100%;
+  border-radius: 8px;
+  padding: 60px;
+}
+#girlStandingOnPlayground {
+  width: 100%;
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  border-radius: 4px;
 }
