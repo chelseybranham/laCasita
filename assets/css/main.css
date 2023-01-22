@@ -2831,15 +2831,18 @@ button.alt:active,
     border-left: 0;
   }
 }
-#painting {
-  min-height: 350px;
+ #painting {
+  min-height: 330px;
   width: 260px;
   padding: 15px;
   padding-right: 25px;
 }
-#middlepic {
- min-height: 350px;
+/* #middlepic {
+ max-height: 330px;
+ min-height: 330px;
 }
+#firstpic{
+  min-height: auto;} */
 .box .post {
   width: 50%;
 }
@@ -2906,10 +2909,11 @@ div .container .second {
   html,
   div,
   .container,
-  #footer {
+  #footer, .pictureChild, .pictureNarratives, .narrativeChild {
     flex-direction: column;
     justify-content: space-around;
-    width: 350px;
+    width: 100%;
+    flex-wrap: wrap;
   }
 }
 #ourEducators {
@@ -2987,9 +2991,7 @@ align-items: stretch;
 min-height: 456px;
 padding: 15px;
 }
-#firstPic{
-  min-width: 350px;
-}
+
 .schoolAgedProgramChild{
   display: flex;
   flex: 1;
@@ -3002,4 +3004,27 @@ padding: 15px;
   #studentsByVan{
     width: 100%;
     padding: 0 100px 100px 100px;
+  }
+  .pictureSection, .pictureNarratives {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+  }
+  .pictureChild, .narrativeChild {
+    width: 33%;
+    border-radius: 8px;
+    padding: 5px;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  #firstpic, #middlepic, #thirdPic {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: stretch;
+    min-height: 456px;
+    padding: 3px;
   }
