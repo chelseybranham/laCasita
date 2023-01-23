@@ -3001,9 +3001,10 @@ padding: 15px;
   border-radius: 8px;
   padding: 60px;}
 
-  #studentsByVan{
+  #studentsByVan, #familyTree{
     width: 100%;
     padding: 0 100px 100px 100px;
+    border-radius: 5px;
   }
   .pictureSection, .pictureNarratives {
     display: flex;
