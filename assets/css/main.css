@@ -3045,12 +3045,16 @@ padding: 15px;
     .educationContainer {
       display: flex;
       flex: 1;
-      justify-content: space-evenly;
+   
       align-items: center;
       flex-direction: row;
     
     }
-    .educationChild{
-      width: 50%;
+    .educationChild {
+      width: 65%;
       border-radius: 8px;
       padding: 60px;}
+      
+      #zColoring {
+        width: 30%;
+      }
