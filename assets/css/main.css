@@ -3029,3 +3029,28 @@ padding: 15px;
     min-height: 456px;
     padding: 3px;
   }
+  .onesAndTwosContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  
+  }
+  .onesAndTwosChild{
+    width: 50%;
+    border-radius: 8px;
+    padding: 60px;}
+
+    .educationContainer {
+      display: flex;
+      flex: 1;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: row;
+    
+    }
+    .educationChild{
+      width: 50%;
+      border-radius: 8px;
+      padding: 60px;}
