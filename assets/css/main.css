@@ -2970,7 +2970,7 @@ align-items: center;
 .threesProgramChild{
   width: 100%;
   border-radius: 8px;
-  padding: 60px;
+  padding: 20px;
 }
 #teacherTeaching{
   width: 100%;
@@ -3045,16 +3045,22 @@ padding: 15px;
     .educationContainer {
       display: flex;
       flex: 1;
-   
+   justify-content: space-around;
       align-items: center;
       flex-direction: row;
     
     }
     .educationChild {
       width: 65%;
-      border-radius: 8px;
-      padding: 60px;}
+      
+      padding: 10px;
+      }
       
       #zColoring {
         width: 30%;
+        border-radius: 8px;
+        margin-right: 70px;
+      }
+      .behavior {
+        width: 75%;
       }
