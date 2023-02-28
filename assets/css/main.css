@@ -2878,44 +2878,7 @@ button.alt:active,
 div .container .second {
   border-bottom: none;
 }
-@media screen and (max-width: 450px) {
-  img {
-    width: 100%;
-  }
-  #painting {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  #brochure {
-    width: 100%;
-  }
-  #reviews {
-    flex-direction: column;
-  }
-  .pictureSection,
-  .image.featured,
-  .col-4,
-  .col-6-medium,
-  .col-12-small,
-  .row,
-  .aln-center,
-  .container,
-  #thirdPic,
-  #middlePic,
-  #firstPic,
-  #features .homepage .is-preload,
-  #page-wrapper,
-  html,
-  div,
-  .container,
-  #footer, .pictureChild, .pictureNarratives, .narrativeChild {
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    flex-wrap: wrap;
-  }
-}
+
 #ourEducators {
   display: flex;
   flex-direction: column;
@@ -3067,4 +3030,55 @@ padding: 15px;
       }
 
 
-      
+      #msConniePic {
+        width: 30%;
+        height: 30%;
+  margin: 0 auto        ;
+      }
+      #aboutUs {
+        width: 70%;
+      }
+
+      @media screen and (max-width: 450px) {
+        img {
+          width: 100%;
+        }
+        #painting {
+          width: 100%;
+          display: block;
+          margin: 0 auto;
+        }
+        #brochure {
+          width: 100%;
+        }
+        #reviews {
+          flex-direction: column;
+        }
+        .pictureSection, .onesAndTwosChild, .onesAndTwosContainer
+        .image.featured,
+        .col-4,
+        .col-6-medium,
+        .col-12-small,.col-6, .col-12-medium,.gtr-50, #sendMessageButton, input,
+        .row,
+        .aln-center,
+        .container,
+        #thirdPic,
+        #middlePic,
+        #firstPic,
+        #features .homepage .is-preload,
+        #page-wrapper,
+        html,
+        .container,
+        #footer, .pictureChild, .pictureNarratives, .narrativeChild, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+          flex-direction: column;
+          justify-content: stretch;
+          width: 100%;
+          flex-wrap: wrap;
+          display: block;
+          margin: 0 auto
+        }
+        .col-6, .col-12-medium, img
+        {
+min-width: 100%;
+        }
+      }
