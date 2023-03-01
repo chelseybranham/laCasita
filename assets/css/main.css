@@ -2936,7 +2936,8 @@ align-items: center;
   padding: 20px;
 }
 #teacherTeaching{
-  width: 100%;
+  width: 60%;
+  height: 60%;
 }
 .preschoolProgramChild{
   display: flex;
@@ -2957,6 +2958,7 @@ padding: 15px;
 
 .schoolAgedProgramChild{
   display: flex;
+  width: 70%;
   flex: 1;
   justify-content: space-evenly;
   align-items: center;
@@ -2966,9 +2968,16 @@ padding: 15px;
 
   #studentsByVan, #familyTree{
     width: 100%;
-    padding: 0 100px 100px 100px;
+    padding: 0 100px 50px 100px;
     border-radius: 5px;
   }
+
+  #studentsByVan{
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+  }
+
   .pictureSection, .pictureNarratives {
     display: flex;
     flex: 1;
@@ -3081,4 +3090,15 @@ padding: 15px;
         {
 min-width: 100%;
         }
+
+        #studentsByVan {
+          margin-top: 20px;
+   padding: 10px;
+        }
+  #zColoring {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 50%;
+    max-height: 50%;
+  }
       }
