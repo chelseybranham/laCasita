@@ -3015,6 +3015,28 @@ padding: 15px;
     border-radius: 8px;
     padding: 60px;}
 
+
+    .brightwheelContainer {
+      display: flex;
+      flex: 1;
+      justify-content: stretch;
+      flex-direction: row;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+    }
+
+    .brightwheelChild{
+      width: 50%;
+      border-radius: 8px;
+      padding: 10px;
+    
+    }
+  
+
+
     .educationContainer {
       display: flex;
       flex: 1;
@@ -3042,7 +3064,8 @@ padding: 15px;
       #msConniePic {
         width: 30%;
         height: 30%;
-  margin: 0 auto        ;
+  margin: 0 auto;
+  margin-bottom: 70px;
       }
       #aboutUs {
         width: 70%;
@@ -3063,7 +3086,7 @@ padding: 15px;
         #reviews {
           flex-direction: column;
         }
-        .pictureSection, .onesAndTwosChild, .onesAndTwosContainer
+        .pictureSection, .onesAndTwosChild, .onesAndTwosContainer, #laCasitaLogoSecond,
         .image.featured,
         .col-4,
         .col-6-medium,
