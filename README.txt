@@ -15,9 +15,6 @@ http://regularjane.deviantart.com/
 (* = Not included! Only meant for use with my own on-site demo, so please do NOT download
 and/or use any of Jane's work without her explicit permission!)
 
-As usual, feedback, bug reports, and comments are not only welcome, but strongly
-encouraged :)
-
 AJ
 aj@lkn.io | @ajlkn
 
