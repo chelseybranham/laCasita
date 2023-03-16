@@ -97,7 +97,7 @@
           <div class="row">
             <div class="col-6 col-12-medium">
               <section>
-                <form method="post" action="#">
+                <form name='Contact Form' data-netlify="true" method="POST">
                   <div class="row gtr-50">
                     <div class="col-6 col-12-small">
                       <input name="name" placeholder="Name" type="text" />
@@ -109,12 +109,11 @@
                       <textarea name="message" placeholder="Message"></textarea>
                     </div>
                     <div class="col-12">
-                      <a
-                        href="#"
+                      <button
+                   
                         id="sendMessageButton"
-                        class="form-button-submit button icon solid fa-envelope"
-                        >Send Message</a
-                      >
+                        class="form-button-submit button icon solid fa-envelope">
+                        Send Message</button>
                     </div>
                   </div>
                 </form>
